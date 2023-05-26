@@ -15,10 +15,6 @@ public class PayActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         ((TextView)findViewById(R.id.txt_item_name)).setText(intent.getStringExtra("item_name"));
-        ((TextView)findViewById(R.id.txt_item_count))
-                .setText(intent.getIntExtra("item_count",+"개"));
-        ((TextView)findViewById(R.id.txt_item_pay))
-                .setText(intent.getIntExtra("item_name"+"개"));
 
     }
 }
